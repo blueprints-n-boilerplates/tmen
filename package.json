@@ -1,0 +1,48 @@
+{
+	"name": "tmen",
+	"version": "1.0.0",
+	"description": "Typescript MEN stack.",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/blueprints-n-boilerplates/tmen.git"
+	},
+	"keywords": [
+		"tmen"
+	],
+	"author": "Keisha Louise Vivien Berondo",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/blueprints-n-boilerplates/tmen/issues"
+	},
+	"homepage": "https://github.com/blueprints-n-boilerplates/tmen#readme",
+	"dependencies": {
+		"@types/bcryptjs": "^2.4.2",
+		"@types/express": "^4.17.13",
+		"@types/morgan": "^1.9.3",
+		"@types/node": "^16.11.12",
+		"axios": "^0.24.0",
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.14.0",
+		"helmet": "^4.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.1.2",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/bcrypt": "^5.0.0",
+		"@types/cors": "^2.8.12",
+		"@types/jsonwebtoken": "^8.5.6",
+		"nodemon": "^2.0.15",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.3"
+	}
+}

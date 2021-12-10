@@ -1,0 +1,14 @@
+version: '3'
+services:
+    tmen:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        ports:
+            - 3000:3000
+        container_name: tmen
+        volumes:
+            - ./:/usr/src/tmen
+            - ./node_modules:/usr/src/tmen/node_modules
+        env_file:
+            - ./.env
